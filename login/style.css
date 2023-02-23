@@ -1,3 +1,4 @@
+/*This styles my entire page I wanted to have some min properties  */
 *{
     margin: 0;
     padding: 5px;
@@ -5,12 +6,12 @@
     border-radius: 15px;
     min-width: 100px;
 }
-
+/*I wanted to add a little color to my background to make my box pop*/
 body{
     background-color: rgb(249, 211, 217);
     min-width: 150px;
 }
-
+/*This is my flexbox this is where all the details of my box are */
 .container{
     display: flex;
     height: 500px;
@@ -20,7 +21,7 @@ body{
     margin-top: 40px;
     box-shadow: 15px 15px 30px rgba(0,0,0,0.3);
 }
-
+/*This is my child element and how I styled my input boxes */
 .form{
     display: flex;
     flex-direction:column;
@@ -31,14 +32,15 @@ body{
 
 .form h2 {
     font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:cursive;
+    color:rgb(167, 75, 89)
 }
 
 .info{
     font-family: 'Cedarville Cursive', cursive;
     font-weight: bold;
     font-size: 15px;
-    color: red;
+    color: rgb(187, 82, 82);
 
 }
 
